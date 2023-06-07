@@ -1,0 +1,13 @@
+const React = require('react')
+
+function greet (props) {
+    const { name, _id, readyToEat, color } = props.fruit
+    return(
+        <div> 
+            <h1> {name} Edit Fruit Page </h1>
+            
+        </div>
+    )
+}
+
+module.exports = Edit
